@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function NavMenu() {
   return (
     <nav>
-      <link href={"/"}>
-        <Image width={216} height={30} src="/logo.svg" alt="NextSpace logo" />
-      </link>
+      <Link href={"/"}>
+        <Image width={216} height={30} alt="NextSpace logo" />
+      </Link>
       <ul>
         <li>
           <Link href={"/about"}>About</Link>
